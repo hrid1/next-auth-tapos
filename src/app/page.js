@@ -3,6 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   
+  console.log(process.env.GITHUB_CLIENT_SECRET, "and",process.env.GITHUB_CLIENT_ID)
 
   return (
     <div>
